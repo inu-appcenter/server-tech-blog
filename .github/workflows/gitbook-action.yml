@@ -1,0 +1,21 @@
+name: GitBook Action
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Gitbook Action                    
+        uses: ZanderZhao/gitbook-action@v1.2.4  
+        with:                                  
+          token: ${{ secrets.PERSONAL_TOKEN }}
+          source_repo: inu-appcenter/server-tech-blog
+          source_branch: main
