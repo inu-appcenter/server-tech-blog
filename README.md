@@ -9,6 +9,12 @@
 |[@Juser0](https://github.com/Juser0)|
 |**14.5기**|
 
+|김원정|
+|:-:|
+|<a href="https://github.com/NARUBROWN"><img src="https://avatars.githubusercontent.com/u/38902021?v=4" width=120></a>|
+|[@NARUBROWN](https://github.com/NARUBROWN)|
+|**15기**|
+
 ## 📝 작성 방법
 
 ```
