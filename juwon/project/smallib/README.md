@@ -11,6 +11,7 @@
 
 <div style='text-align:center'>
     <img src="img/smallib_books.jpg" width=50%></img>
+    <br />
     <em style='display:block'>연구실에 쌓아놓은 책들</em>
 </div>
 
