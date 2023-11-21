@@ -1,25 +1,19 @@
-# ✒ Server-Tech-Blog
+# 📝 Server-Tech-Blog
 인천대학교 앱센터 서버 파트에서 활동한 내역을 기록하는 기술블로그 저장소
 
 ## 👩‍💻 참여인원
 
+### **14.5기**
 |이주원|
 |:-:|
 |<a href="https://github.com/Juser0"><img src="https://avatars.githubusercontent.com/u/108407945?v=4" width=120></a>|
 |[@Juser0](https://github.com/Juser0)|
-|**14.5기**|
 
-|김원정|
-|:-:|
-|<a href="https://github.com/NARUBROWN"><img src="https://avatars.githubusercontent.com/u/38902021?v=4" width=120></a>|
-|[@NARUBROWN](https://github.com/NARUBROWN)|
-|**15기**|
-
-|구준형|
-|:-:|
-|<a href="https://github.com/rnwnsgud"><img src="https://avatars.githubusercontent.com/u/78197563?v=4" width=120></a>|
-|[@rnwnsgud](https://github.com/rnwnsgud)|
-|**15기**|
+### **15기**
+|김원정|구준형|
+|:-:|:-:|
+|<a href="https://github.com/NARUBROWN"><img src="https://avatars.githubusercontent.com/u/38902021?v=4" width=120></a>|<a href="https://github.com/rnwnsgud"><img src="https://avatars.githubusercontent.com/u/78197563?v=4" width=120></a>|
+|[@NARUBROWN](https://github.com/NARUBROWN)|[@rnwnsgud](https://github.com/rnwnsgud)|
 
 ## 📝 작성 방법
 
