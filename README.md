@@ -15,6 +15,12 @@
 |[@NARUBROWN](https://github.com/NARUBROWN)|
 |**15기**|
 
+|구준형|
+|:-:|
+|<a href="https://github.com/rnwnsgud"><img src="https://avatars.githubusercontent.com/u/78197563?v=4" width=120></a>|
+|[@rnwnsgud](https://github.com/rnwnsgud)|
+|**15기**|
+
 ## 📝 작성 방법
 
 ```
