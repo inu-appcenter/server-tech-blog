@@ -5,7 +5,7 @@
 <div>       
 
 * [목차](../README.md)
-* [1주차](./week1.md)
+* [1주차](week1.md)
 
 </div>
 </details>
