@@ -2,4 +2,4 @@
 [Repository Link](https://github.com/inu-appcenter/appcenter-smallib)
 
 ## 포스팅 내용
-* [1주차 - 시작](./post/week1.md)
+* [1주차 - 시작](post/week1.md)
