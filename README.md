@@ -10,10 +10,10 @@
 |[@Juser0](https://github.com/Juser0)|
 
 ### **15기**
-|김원정|구준형|
-|:-:|:-:|
-|<a href="https://github.com/NARUBROWN"><img src="https://avatars.githubusercontent.com/u/38902021?v=4" width=120></a>|<a href="https://github.com/rnwnsgud"><img src="https://avatars.githubusercontent.com/u/78197563?v=4" width=120></a>|
-|[@NARUBROWN](https://github.com/NARUBROWN)|[@rnwnsgud](https://github.com/rnwnsgud)|
+|김원정|구준형|김동우|이영재|
+|:-:|:-:|:-:|:-:|
+|<a href="https://github.com/NARUBROWN"><img src="https://avatars.githubusercontent.com/u/38902021?v=4" width=120></a>|<a href="https://github.com/rnwnsgud"><img src="https://avatars.githubusercontent.com/u/78197563?v=4" width=120></a>|<a href="https://github.com/wellbeing-dough"><img src="https://avatars.githubusercontent.com/u/102784323?v=4" width=120></a>|<a href="https://github.com/"><img src="https://avatars.githubusercontent.com/u/97587573?v=4" width=120></a>|
+|[@NARUBROWN](https://github.com/NARUBROWN)|[@rnwnsgud](https://github.com/rnwnsgud)|[@wellbeing-dough](https://github.com/wellbeing-dough)|[@elyudwo](https://github.com/elyudwo)|
 
 ## 📝 작성 방법
 
