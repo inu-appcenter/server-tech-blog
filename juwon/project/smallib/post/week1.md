@@ -1,11 +1,11 @@
-# [Smallib : 인천대학교 앱센터를 위한 작은 도서관 프로젝트] 시작
+# [Smallib : 앱센터를 위한 작은 도서관 프로젝트] 시작
 
 <details>
 <summary>Smalib 포스팅 목록</summary>
 <div>       
 
 * [목차](../README.md)
-* [1주차](week1.md)
+* [1주차](./week1.md)
 
 </div>
 </details>
