@@ -22,7 +22,7 @@
 그래서 어떻게 대출/반납을 할 지 고민하다가, 도서관 프로젝트를 간단하게 구상했다.
 
 <div style='text-align:center'>
-    <img src="img/smallib_books.jpg" width=50%></img>
+    <img src="../img/smallib_books.jpg" width=50%></img>
     <br />
     <em style='display:block'>연구실에 쌓아놓은 책들</em>
 </div>
