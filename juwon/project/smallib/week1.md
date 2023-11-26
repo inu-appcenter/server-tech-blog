@@ -4,9 +4,9 @@
 <summary>Smalib 포스팅 목록</summary>
 <div>       
 
-* [목차](../README.md)
-* [1주차](./week1.md)
-* [2주차](./week2.md)
+- [목차](../README.md)  
+- [1주차](./week1.md)  
+- [2주차](./week2.md)
 
 </div>
 </details>
