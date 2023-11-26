@@ -5,6 +5,7 @@
   - Concept
   - Methodology
   - Project
-    - [Smallib](juwon/project/smallib/README.md)
+    - [Smallib](juwon/project/smallib/index.md)
         - [1주차](juwon/project/smallib/week1.md)
         - [2주차](juwon/project/smallib/week2.md)
+    - [Favor](juwon/project/favor/index.md)
