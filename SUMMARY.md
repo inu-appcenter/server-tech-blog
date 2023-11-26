@@ -6,3 +6,5 @@
   - Methodology
   - Project
     - [Smallib](juwon/project/smallib/README.md)
+        - [1주차](juwon/project/smallib/week1.md)
+        - [2주차](juwon/project/smallib/week2.md)
