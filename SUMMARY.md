@@ -9,3 +9,7 @@
         - [1주차](juwon/project/smallib/week1.md)
         - [2주차](juwon/project/smallib/week2.md)
     - [Favor](juwon/project/favor/index.md)
+- Yeongjae
+  - Project
+    - Study Hub
+        - [Spring Security](yeongjae/project/studyhub/security.md)
