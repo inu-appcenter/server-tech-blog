@@ -13,4 +13,9 @@
   - Project
     - Study Hub
         - [Spring Security](yeongjae/project/studyhub/security.md)
-        - [DB Indexing Performance Test](yeongjae/project/studyhub/DBIndexingTest.md) 
+        - [DB Indexing Performance Test](yeongjae/project/studyhub/DBIndexingTest.md)
+- Dongwoo
+  - Project
+    - Study Hub
+      - [Spring Batch](dongwoo/project/studyHub/springBatch.md)
+      - [EC2 Timezone](dongwoo/project/studyHub/ec2Timezone.md)
