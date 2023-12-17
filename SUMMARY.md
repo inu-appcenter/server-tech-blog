@@ -19,3 +19,4 @@
     - Study Hub
       - [Spring Batch](dongwoo/project/studyHub/springBatch.md)
       - [EC2 Timezone](dongwoo/project/studyHub/ec2Timezone.md)
+      - [Deploy Timezone](dongwoo/project/studyHub/deployTimzone.md)
