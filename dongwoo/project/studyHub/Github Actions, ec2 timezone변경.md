@@ -1,3 +1,5 @@
+# Github Actions, ec2 timezone변경
+
 ## 1. 문제상황
 - 배치 시스템으로 매일 새벽 4시에 모집글 상태 자동 변환을 구현하고 테스트도 잘 통과 했지만 배포된 서버의 시간이 한국 시간과 다른것을 확인
   ![](https://velog.velcdn.com/images/wellbeing-dough/post/8781d09c-2f3e-4a6c-834d-ae500b187752/image.png)

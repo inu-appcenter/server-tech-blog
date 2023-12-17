@@ -1,3 +1,6 @@
+# CI서버 Repository Test 에서 시간 정렬이 안되는 이슈
+
+
 지난번에 Repository Test 를 CI서버에서 돌릴때 배포 환경과 테스트 환경을 맞추는 작업을 했었다(https://velog.io/@wellbeing-dough/spring-boot-RepositoryTest-GitHub-Actions%EC%97%90-%EB%8F%8C%EB%A6%AC%EA%B8%B0)
 
 잘 돌아가나 했는데 테스트에서![](https://velog.velcdn.com/images/wellbeing-dough/post/30460f0b-fb77-4e25-a890-573f2defa36a/image.png)
