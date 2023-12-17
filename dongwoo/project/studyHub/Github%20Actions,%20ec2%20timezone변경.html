@@ -65,10 +65,10 @@
     <link rel="shortcut icon" href="../../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="deployTimzone.html" />
+    <link rel="next" href="CI서버 Repository Test 에서 시간 정렬이 안되는 이슈.html" />
     
     
-    <link rel="prev" href="springBatch.html" />
+    <link rel="prev" href="Spring Batch 모집글 상태 자동 변환.html" />
     
 
     </head>
@@ -357,9 +357,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.4.1.1.1" data-path="springBatch.html">
+        <li class="chapter " data-level="1.4.1.1.1" data-path="Spring Batch 모집글 상태 자동 변환.html">
             
-                <a href="springBatch.html">
+                <a href="Spring Batch 모집글 상태 자동 변환.html">
             
                     
                     Spring Batch
@@ -370,9 +370,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.4.1.1.2" data-path="ec2Timezone.html">
+        <li class="chapter active" data-level="1.4.1.1.2" data-path="Github%20Actions,%20ec2%20timezone변경.html">
             
-                <a href="ec2Timezone.html">
+                <a href="Github%20Actions,%20ec2%20timezone변경.html">
             
                     
                     EC2 Timezone
@@ -383,9 +383,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4.1.1.3" data-path="deployTimzone.html">
+        <li class="chapter " data-level="1.4.1.1.3" data-path="CI서버 Repository Test 에서 시간 정렬이 안되는 이슈.html">
             
-                <a href="deployTimzone.html">
+                <a href="CI서버 Repository Test 에서 시간 정렬이 안되는 이슈.html">
             
                     
                     Deploy Timezone
@@ -456,45 +456,7 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h2 id="1-&#xBB38;&#xC81C;&#xC0C1;&#xD669;">1. &#xBB38;&#xC81C;&#xC0C1;&#xD669;</h2>
-<ul>
-<li>&#xBC30;&#xCE58; &#xC2DC;&#xC2A4;&#xD15C;&#xC73C;&#xB85C; &#xB9E4;&#xC77C; &#xC0C8;&#xBCBD; 4&#xC2DC;&#xC5D0; &#xBAA8;&#xC9D1;&#xAE00; &#xC0C1;&#xD0DC; &#xC790;&#xB3D9; &#xBCC0;&#xD658;&#xC744; &#xAD6C;&#xD604;&#xD558;&#xACE0; &#xD14C;&#xC2A4;&#xD2B8;&#xB3C4; &#xC798; &#xD1B5;&#xACFC; &#xD588;&#xC9C0;&#xB9CC; &#xBC30;&#xD3EC;&#xB41C; &#xC11C;&#xBC84;&#xC758; &#xC2DC;&#xAC04;&#xC774; &#xD55C;&#xAD6D; &#xC2DC;&#xAC04;&#xACFC; &#xB2E4;&#xB978;&#xAC83;&#xC744; &#xD655;&#xC778;
-<img src="https://velog.velcdn.com/images/wellbeing-dough/post/8781d09c-2f3e-4a6c-834d-ae500b187752/image.png" alt="">
-&#xB3C4;&#xB300;&#xCCB4; &#xC5B4;&#xB514;&#xB098;&#xB77C; &#xC2DC;&#xAC04;&#xC77C;&#xAE4C; &#xAD81;&#xAE08;&#xD574;&#xC11C; &#xC54C;&#xC544;&#xBD24;&#xB294;&#xB370; &#xC601;&#xAD6D;&#xC758; &#xC2DC;&#xAC04;&#xC774;&#xB77C;&#xACE0; &#xD568; &#xC870;&#xC2EC;&#xC2A4;&#xB7FD;&#xAC8C; &#xB7F0;&#xB358;&#xC5D0; &#xADF8;&#xB9AC;&#xB2C8;&#xCE58; &#xCC9C;&#xBB38;&#xB300; &#xAE30;&#xC900;&#xC774; &#xC544;&#xB2CC;&#xAC00;? &#xB77C;&#xB294; &#xC0DD;&#xAC01;&#xC774; &#xB4E4;&#xC5C8;&#xC74C;</li>
-</ul>
-<h2 id="2-&#xD574;&#xACB0;">2. &#xD574;&#xACB0;</h2>
-<ul>
-<li>sudo ln -sf /usr/share/zoneinfo/Asia/Seoul /etc/localtime &#xB85C; Timezone&#xC744; &#xD55C;&#xAD6D; &#xD45C;&#xC900;(KST)&#xB85C; &#xBCC0;&#xACBD;&#xD558;&#xB294; &#xB9AC;&#xB205;&#xC2A4; &#xBA85;&#xB839;&#xC5B4;&#xAC00; &#xC788;&#xB294;&#xB370; &#xC6B0;&#xB9AC;&#xB294; CICD &#xBE14;&#xB8E8;&#xADF8;&#xB9B0; &#xBC30;&#xD3EC;&#xB85C; &#xB9E4; &#xBC30;&#xD3EC;&#xB9C8;&#xB2E4; ec2&#xAC00; &#xB2EC;&#xB77C;&#xC9D0;(&#xB3C8;&#xC744; &#xC544;&#xB07C;&#xAE30; &#xC704;&#xD574;...) &#xB9E4; &#xBC30;&#xD3EC;&#xB9C8;&#xB2E4; &#xD55C;&#xAD6D; &#xD45C;&#xC900;&#xC73C;&#xB85C; &#xC124;&#xC815;&#xD560; &#xC218; &#xC5C6;&#xC5B4;&#xC11C; deploy.yml&#xC5D0; &#xC801;&#xC6A9;&#xD558;&#xBA74; &#xB428;</li>
-</ul>
-<pre><code class="lang-yaml">     <span class="hljs-comment"># EB&#xC5D0; CD &#xD558;&#xAE30; &#xC704;&#xD574; &#xCD94;&#xAC00; &#xC791;&#xC131;</span>
-<span class="hljs-attr">      - name:</span> Generate deployment package
-<span class="hljs-attr">        run:</span> |   <span class="hljs-comment">#|&#xC791;&#xC131;&#xD558;&#xBA74; &#xBA85;&#xB839;&#xC5B4;&#xB97C; &#xC5EC;&#xB7EC;&#xC904; &#xC801;&#xC744; &#xC218; &#xC788;&#xB2E4;</span>
-          mkdir deploy <span class="hljs-comment">#&#xAE43;&#xD5D9;&#xC5D0; &#xC788;&#xB294; &#xC11C;&#xBC84;&#xC5D0; deploy&#xD3F4;&#xB354; &#xB9CC;&#xB4E4;&#xACE0;</span>
-          cp build/libs/*.jar deploy/application.jar <span class="hljs-comment">#&#xC544;&#xAE4C; &#xC790;&#xB974;&#xD30C;&#xC77C;&#xB85C; &#xAD6C;&#xC740;&#xAC70; application.jar&#xB85C; &#xBCF5;&#xC0AC;</span>
-          cp Procfile deploy/Procfile <span class="hljs-comment">#Procfile&#xC744; deploy&#xB85C; &#xC62E;&#xAE34;&#xB2E4;</span>
-          cp -r .ebextensions deploy/.ebextensions <span class="hljs-comment">#eb~&#xC800; &#xD30C;&#xC77C;&#xB3C4; deploy&#xC5D0; &#xC774;&#xB3D9;</span>
-          cd deploy &amp;&amp; zip -r deploy.zip . <span class="hljs-comment">#&#xC774;&#xBAA8;&#xB4E0; &#xD30C;&#xC77C;&#xC744; dploy.zip&#xC73C;&#xB85C; &#xC555;&#xCD95;&#xD55C;&#xB2E4;</span>
-<span class="hljs-attr">      - name:</span> Deploy to EB <span class="hljs-comment">#ELB&#xC5D0; &#xBC30;&#xD3EC;&#xD558;&#xC790;</span>
-<span class="hljs-attr">        uses:</span> einaregilsson/beanstalk-deploy@v21 <span class="hljs-comment">#&#xC774;&#xAC83;&#xB3C4; &#xB77C;&#xC774;&#xBE0C;&#xB7EC;&#xB9AC; &#xC0AC;&#xC6A9;&#xD574;&#xC11C; &#xAC04;&#xB2E8;&#xD558;&#xAC8C; &#xBC30;&#xD3EC;</span>
-<span class="hljs-attr">        with:</span>
-<span class="hljs-attr">          aws_access_key:</span> ${{ secrets.AWS_ACCESS_KEY }} <span class="hljs-comment">#&#xBC11;&#xC5D0;&#xC11C; &#xC124;&#xBA85;</span>
-<span class="hljs-attr">          aws_secret_key:</span> ${{ secrets.AWS_SECRET_KEY }}
-<span class="hljs-attr">          application_name:</span> aws-v5-beanstalk <span class="hljs-comment"># &#xC5D8;&#xB9AC;&#xC2A4;&#xD2F1; &#xBE48;&#xC2A4;&#xD1A1; &#xC560;&#xD50C;&#xB9AC;&#xCF00;&#xC774;&#xC158; &#xC774;&#xB984;!</span>
-<span class="hljs-attr">          environment_name:</span> Aws-v5-beanstalk-env <span class="hljs-comment"># &#xC5D8;&#xB9AC;&#xC2A4;&#xD2F1; &#xBE48;&#xC2A4;&#xD1A1; &#xD658;&#xACBD; &#xC774;&#xB984;!</span>
-<span class="hljs-attr">          version_label:</span> aws-v5-${{steps.current-time.outputs.formattedTime}} <span class="hljs-comment">#&#xBC84;&#xC804;&#xBA85;&#xC774; &#xAC19;&#xC73C;&#xBA74; &#xC548;&#xB418;&#xC11C; &#xC2DC;&#xAC04;&#xB123;&#xC74C;</span>
-<span class="hljs-attr">          region:</span> ap-northeast<span class="hljs-bullet">-2</span> <span class="hljs-comment">#&#xC11C;&#xC6B8;</span>
-<span class="hljs-attr">          deployment_package:</span> deploy/deploy.zip <span class="hljs-comment">#&#xCD5C;&#xC885;&#xC801;&#xC73C;&#xB85C; S3&#xC5D0; &#xC811;&#xADFC;&#xD574;&#xC11C; deploy.zip&#xC744; &#xB358;&#xC9C0;&#xACA0;&#xB2E4;</span>
-</code></pre>
-<p>CD&#xBD80;&#xBD84;&#xB9CC; &#xAC00;&#xC838;&#xC654;&#xB294;&#xB370; &#xC800;&#xAE30;&#xC11C; .ebextensions&#xC5D0; &#xBA85;&#xB839;&#xC5B4;&#xD30C;&#xC77C;&#xC744; &#xD558;&#xB098; &#xB354; &#xB9CC;&#xB4E4;&#xC5B4;&#xC11C; &#xC2E4;&#xD589; &#xD574;&#xBCF4;&#xC790;
-<img src="https://velog.velcdn.com/images/wellbeing-dough/post/093b7ccc-0e9f-4c3f-a392-9cedf7da883b/image.png" alt="">
-01_update_timezone.config &#xB9CC;&#xB4E4;&#xACE0;</p>
-<pre><code class="lang-config">commands:
-  01_update_timezone:
-    command: &quot;sudo ln -sf /usr/share/zoneinfo/Asia/Seoul /etc/localtime&quot;
-</code></pre>
-<p>&#xBA85;&#xB839;&#xC5B4;&#xB97C; &#xC124;&#xC815; &#xD574; &#xC900;&#xB2E4; &#xADF8;&#xB7EC;&#xBA74; ebextensions&#xAC00; deploy.zip&#xC73C;&#xB85C; &#xBA85;&#xB839;&#xC5B4;&#xAC00; &#xAC19;&#xC774; &#xC555;&#xCD95;&#xB418;&#xC11C; deployment_package&#xC5D0; &#xC798; &#xB4E4;&#xC5B4;&#xAC08; &#xC218; &#xC788;&#xB2E4;
-<img src="https://velog.velcdn.com/images/wellbeing-dough/post/0f26e898-cd51-4731-8d06-067d93f73dcb/image.png" alt="">
-&#xD604;&#xC7AC; &#xC2DC;&#xAC04;&#xC774;&#xB791; &#xC798; &#xB9DE;&#xB294;&#xB2E4;</p>
+                                <h1 id="ec2-timezone">EC2 Timezone</h1>
 
                                 
                                 </section>
@@ -522,12 +484,12 @@
 
             
                 
-                <a href="springBatch.html" class="navigation navigation-prev " aria-label="Previous page: Spring Batch">
+                <a href="Spring Batch 모집글 상태 자동 변환.html" class="navigation navigation-prev " aria-label="Previous page: Spring Batch">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="deployTimzone.html" class="navigation navigation-next " aria-label="Next page: Deploy Timezone">
+                <a href="CI서버 Repository Test 에서 시간 정렬이 안되는 이슈.html" class="navigation navigation-next " aria-label="Next page: Deploy Timezone">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -538,7 +500,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"EC2 Timezone","level":"1.4.1.1.2","depth":4,"next":{"title":"Deploy Timezone","level":"1.4.1.1.3","depth":4,"path":"dongwoo/project/studyHub/deployTimzone.md","ref":"dongwoo/project/studyHub/deployTimzone.md","articles":[]},"previous":{"title":"Spring Batch","level":"1.4.1.1.1","depth":4,"path":"dongwoo/project/studyHub/springBatch.md","ref":"dongwoo/project/studyHub/springBatch.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["collapsible-chapters","comment","hide-published-with","github"],"pluginsConfig":{"github":{"url":"https://github.com/inu-appcenter/server-tech-blog"},"search":{},"collapsible-chapters":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"hide-published-with":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"comment":{"highlightCommented":true}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"dongwoo/project/studyHub/ec2Timezone.md","mtime":"2023-12-17T06:45:40.795Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-12-17T06:46:08.491Z"},"basePath":"../../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"EC2 Timezone","level":"1.4.1.1.2","depth":4,"next":{"title":"Deploy Timezone","level":"1.4.1.1.3","depth":4,"path":"dongwoo/project/studyHub/CI서버 Repository Test 에서 시간 정렬이 안되는 이슈.md","ref":"dongwoo/project/studyHub/CI서버 Repository Test 에서 시간 정렬이 안되는 이슈.md","articles":[]},"previous":{"title":"Spring Batch","level":"1.4.1.1.1","depth":4,"path":"dongwoo/project/studyHub/Spring Batch 모집글 상태 자동 변환.md","ref":"dongwoo/project/studyHub/Spring Batch 모집글 상태 자동 변환.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["collapsible-chapters","comment","hide-published-with","github"],"pluginsConfig":{"github":{"url":"https://github.com/inu-appcenter/server-tech-blog"},"search":{},"collapsible-chapters":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"hide-published-with":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"comment":{"highlightCommented":true}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"dongwoo/project/studyHub/Github%20Actions,%20ec2%20timezone변경.md","mtime":"2023-12-17T08:02:06.991Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-12-17T08:02:10.098Z"},"basePath":"../../..","book":{"language":""}});
         });
     </script>
 </div>
