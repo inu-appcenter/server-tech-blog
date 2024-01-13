@@ -17,7 +17,7 @@
 - Dongwoo
   - Project
     - Study Hub
-      - [Spring Batch](dongwoo/project/studyHub/Spring Batch 모집글 상태 자동 변환.md)
+      - [Spring Batch](dongwoo/project/studyHub/Spring%20Batch%20모집글%20상태%20자동%20변환.md)
       - [EC2 Timezone](dongwoo/project/studyHub/Github%20Actions,%20ec2%20timezone변경.md)
-      - [Deploy Timezone](dongwoo/project/studyHub/CI서버 Repository Test 에서 시간 정렬이 안되는 이슈.md)
+      - [Deploy Timezone](dongwoo/project/studyHub/CI서버%20Repository%20Test%20에서%20시간%20정렬이%20안되는%20이슈.md)
       - [Deploy Secret.json](dongwoo/project/studyHub/FCM%20secret.json을%20%08CICD에서%20숨겨서%20배포하기.md)
