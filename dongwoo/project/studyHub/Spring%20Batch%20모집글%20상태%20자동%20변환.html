@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Deploy Timezone · GitBook</title>
+        <title>Spring Batch · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -65,10 +65,8 @@
     <link rel="shortcut icon" href="../../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="FCM%20secret.json을%20%08CICD에서%20숨겨서%20배포하기.html" />
+    <link rel="next" href="Github%20Actions,%20ec2%20timezone변경.html" />
     
-    
-    <link rel="prev" href="Github%20Actions,%20ec2%20timezone변경.html" />
     
 
     </head>
@@ -357,9 +355,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.4.1.1.1" data-path="Spring Batch 모집글 상태 자동 변환.html">
+        <li class="chapter active" data-level="1.4.1.1.1" data-path="Spring%20Batch%20모집글%20상태%20자동%20변환.html">
             
-                <a href="Spring Batch 모집글 상태 자동 변환.html">
+                <a href="Spring%20Batch%20모집글%20상태%20자동%20변환.html">
             
                     
                     Spring Batch
@@ -383,9 +381,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.4.1.1.3" data-path="CI서버 Repository Test 에서 시간 정렬이 안되는 이슈.html">
+        <li class="chapter " data-level="1.4.1.1.3" data-path="CI서버%20Repository%20Test%20에서%20시간%20정렬이%20안되는%20이슈.html">
             
-                <a href="CI서버 Repository Test 에서 시간 정렬이 안되는 이슈.html">
+                <a href="CI서버%20Repository%20Test%20에서%20시간%20정렬이%20안되는%20이슈.html">
             
                     
                     Deploy Timezone
@@ -454,7 +452,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../../.." >Deploy Timezone</a>
+        <a href="../../.." >Spring Batch</a>
     </h1>
 </div>
 
@@ -469,34 +467,7 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="ci&#xC11C;&#xBC84;-repository-test-&#xC5D0;&#xC11C;-&#xC2DC;&#xAC04;-&#xC815;&#xB82C;&#xC774;-&#xC548;&#xB418;&#xB294;-&#xC774;&#xC288;">CI&#xC11C;&#xBC84; Repository Test &#xC5D0;&#xC11C; &#xC2DC;&#xAC04; &#xC815;&#xB82C;&#xC774; &#xC548;&#xB418;&#xB294; &#xC774;&#xC288;</h1>
-<p>&#xC9C0;&#xB09C;&#xBC88;&#xC5D0; Repository Test &#xB97C; CI&#xC11C;&#xBC84;&#xC5D0;&#xC11C; &#xB3CC;&#xB9B4;&#xB54C; &#xBC30;&#xD3EC; &#xD658;&#xACBD;&#xACFC; &#xD14C;&#xC2A4;&#xD2B8; &#xD658;&#xACBD;&#xC744; &#xB9DE;&#xCD94;&#xB294; &#xC791;&#xC5C5;&#xC744; &#xD588;&#xC5C8;&#xB2E4;(<a href="https://velog.io/@wellbeing-dough/spring-boot-RepositoryTest-GitHub-Actions%EC%97%90-%EB%8F%8C%EB%A6%AC%EA%B8%B0" target="_blank">https://velog.io/@wellbeing-dough/spring-boot-RepositoryTest-GitHub-Actions%EC%97%90-%EB%8F%8C%EB%A6%AC%EA%B8%B0</a>)</p>
-<p>&#xC798; &#xB3CC;&#xC544;&#xAC00;&#xB098; &#xD588;&#xB294;&#xB370; &#xD14C;&#xC2A4;&#xD2B8;&#xC5D0;&#xC11C;<img src="https://velog.velcdn.com/images/wellbeing-dough/post/30460f0b-fb77-4e25-a890-573f2defa36a/image.png" alt="">
-&#xC774;&#xB807;&#xAC8C; &#xCD5C;&#xC2E0;&#xC21C; &#xC815;&#xB82C;&#xD55C; &#xD14C;&#xC2A4;&#xD2B8; &#xCF54;&#xB4DC;&#xAC00; &#xC804;&#xBD80; &#xD14C;&#xC2A4;&#xD2B8;&#xAC00; &#xC2E4;&#xD328;&#xD588;&#xB2E4; &#xBD84;&#xBA85;&#xD788; &#xB85C;&#xCEEC;&#xC5D0;&#xC120; &#xC798; &#xB3CC;&#xC544;&#xAC00;&#xB294;&#xB370;
-&#xCC38;&#xACE0;: github actions&#xC5D0;&#xC11C; &#xD14C;&#xC2A4;&#xD2B8; &#xACB0;&#xACFC; &#xC544;&#xCE74;&#xC774;&#xBE59; &#xD558;&#xB824;&#xBA74; (<a href="https://velog.io/@wellbeing-dough/Github-Actions-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%83%81%EC%84%B8-%EA%B2%B0%EA%B3%BC-%EC%95%84%EC%B9%B4%EC%9D%B4%EB%B9%99%ED%95%98%EA%B8%B0" target="_blank">https://velog.io/@wellbeing-dough/Github-Actions-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%83%81%EC%84%B8-%EA%B2%B0%EA%B3%BC-%EC%95%84%EC%B9%B4%EC%9D%B4%EB%B9%99%ED%95%98%EA%B8%B0</a>)</p>
-<p>&#xC138;&#xBD80; &#xB85C;&#xADF8;&#xB97C; &#xC0B4;&#xD3B4;&#xBCF4;&#xB2C8;
-<img src="https://velog.velcdn.com/images/wellbeing-dough/post/7cd978da-8422-457f-baf8-965c60c1de0d/image.png" alt="">
-&#xCD5C;&#xC2E0;&#xC21C;&#xB4E4;&#xC774; &#xC804;&#xBD80; &#xC21C;&#xC11C;&#xAC00; &#xBC14;&#xB00C;&#xC5B4; &#xC788;&#xC5C8;&#xB2E4;</p>
-<p><img src="https://velog.velcdn.com/images/wellbeing-dough/post/0ddc8210-4a34-485c-9816-a3f8722d8fcf/image.png" alt="">
-&#xD574;&#xB2F9; &#xCF54;&#xB4DC;&#xC758; &#xC800;&#xC7A5;&#xD558;&#xB294; &#xBD80;&#xBD84;&#xC778;&#xB370; &#xBB54;&#xAC00; &#xB450;&#xAC1C;&#xC758; &#xB370;&#xC774;&#xD130;&#xC758; &#xC800;&#xC7A5;&#xC758; &#xCC28;&#xC774;&#xAC00; &#xBC00;&#xB9AC;&#xC138;&#xCEE8;&#xB4DC; &#xCC28;&#xC774;&#xB77C;&#xC11C; &#xBC1C;&#xC0DD;&#xD558;&#xB294; &#xBB38;&#xC81C;&#xAC19;&#xC558;&#xB2E4; &#xADF8;&#xB798;&#xC11C; Thread&#xB97C; 2&#xCD08;&#xAC04; &#xBA48;&#xCDB0;&#xBD24;&#xB294;&#xB370; &#xD14C;&#xC2A4;&#xB97C; &#xD1B5;&#xACFC;&#xD558;&#xB294;&#xAC83;&#xC774;&#xC600;&#xB2E4;...</p>
-<p>H2&#xD658;&#xACBD;&#xC5D0;&#xC11C; created_date, modified_date&#xB294; &#xC774;&#xB807;&#xAC8C; &#xBC00;&#xB9AC;&#xC138;&#xCEE8;&#xB4DC;&#xAE4C;&#xC9C0; &#xB2E4; &#xB098;&#xC628;&#xB2E4;
-<img src="https://velog.velcdn.com/images/wellbeing-dough/post/a699dc3d-876e-4877-8ad5-12008c5a3ada/image.png" alt="">
-&#xD558;&#xC9C0;&#xB9CC; &#xBC30;&#xD3EC;&#xD658;&#xACBD;&#xC758; MySQL&#xC5D0;&#xC11C;&#xB294; &#xC774;&#xB807;&#xAC8C; &#xC138;&#xCEE8;&#xB4DC;&#xAE4C;&#xC9C0;&#xB9CC; &#xB098;&#xC628;&#xB2E4;
-<img src="https://velog.velcdn.com/images/wellbeing-dough/post/fc2cf520-7f3b-40f8-a8bd-98b36aeaeb21/image.png" alt=""></p>
-<pre><code class="lang-java">    <span class="hljs-function">created_date    <span class="hljs-title">TIMESTAMP</span><span class="hljs-params">(<span class="hljs-number">3</span>)</span>     DEFAULT NULL,
-    modified_date   <span class="hljs-title">TIMESTAMP</span><span class="hljs-params">(<span class="hljs-number">3</span>)</span>     DEFAULT NULL
-</span></code></pre>
-<p>&#xC774;&#xB807;&#xAC8C; TIMESTAMP(3)&#xC73C;&#xB85C; &#xD558;&#xBA74;&#xB41C;&#xB2E4;
-timestamp(1)&#xC740; &#xC18C;&#xC218;&#xC810; &#xCCAB;&#xBC88;&#xC9F8;&#xC790;&#xB9AC;,timestamp(2)&#xB294; &#xC18C;&#xC218;&#xC810; &#xB450;&#xBC88;&#xC9F8; &#xC790;&#xB9AC;&#xB97C; &#xD45C;&#xD604;&#xD55C;&#xB2E4; &#xCD5C;&#xB300; 6&#xC790;&#xB9AC; &#xAE4C;&#xC9C0; &#xC815;&#xD655;&#xB3C4;&#xB97C; &#xB192;&#xC77C; &#xC218; &#xC788;&#xB2E4;</p>
-<p>&#xCC38;&#xACE0;&#xB85C; DATETIME&#xC744; &#xC4F0;&#xC9C0; &#xC54A;&#xACE0; TIMESTAMP&#xC758; &#xCC28;&#xC774;&#xB294;</p>
-<ol>
-<li>Timestamp &#xD0C0;&#xC785;&#xC740; 1970-01-01 00:00:01 ~ 2038-01-19 08:44:07&#xAE4C;&#xC9C0;&#xC758; &#xB370;&#xC774;&#xD130;&#xB9CC; &#xC9C0;&#xC6D0;, Datetime &#xD0C0;&#xC785;&#xC740; 1000-01-01 00:00:00 ~ 9999-12-31 23:59:59 &#xC0AC;&#xC774;&#xC758; &#xB370;&#xC774;&#xD130;&#xB97C; &#xC9C0;&#xC6D0;</li>
-<li>(MySQL 5.6.4 &#xBC84;&#xC804; &#xC774;&#xC0C1; &#xAE30;&#xC900;) Timestamp&#xB294; 4 bytes+ 3byte(&#xCD08; &#xB2E8;&#xC704;&#xB97C; &#xC800;&#xC7A5;&#xD558;&#xAE30; &#xC704;&#xD568;) &#xD06C;&#xAE30;&#xAC00; &#xD544;&#xC694;&#xD568;, Datetime &#xD0C0;&#xC785;&#xC740; 5byte + 3byte(&#xCD08; &#xB2E8;&#xC704;&#xB97C; &#xC800;&#xC7A5;&#xD558;&#xAE30; &#xC704;&#xD568;) &#xD06C;&#xAE30;&#xAC00; &#xD544;&#xC694;&#xD568;</li>
-<li>Timestamp &#xD0C0;&#xC785;&#xC758; &#xAC12;&#xC740; &#xD604;&#xC7AC; &#xC2DC;&#xAC01; &#x2192; UTC &#xC2DC;&#xAC01;&#xC73C;&#xB85C; &#xBCC0;&#xD658;&#xB418;&#xBA70; Datetime&#xC740; &#xBCC0;&#xD658;&#xB418;&#xC9C0; &#xC54A;&#xC74C; &#xB9CC;&#xC57D; &#xAE00;&#xB85C;&#xBC8C; &#xC11C;&#xBE44;&#xC2A4;&#xC5D0;&#xC11C; Datetime&#xC744; &#xC0AC;&#xC6A9;&#xD558;&#xC5EC; &#xB0A0;&#xC9DC;&#xB97C; &#xD45C;&#xD604;&#xD560; &#xACBD;&#xC6B0;, &#xD55C;&#xAD6D;&#xC5D0;&#xC11C; 17:00&#xC2DC;&#xC5D0; &#xC791;&#xC131;&#xB41C; &#xAE00;&#xC774; &#xBBF8;&#xAD6D;&#xC5D0;&#xC11C;&#xB3C4; &#xADF8;&#xB300;&#xB85C; 17:00&#xC2DC;&#xC5D0; &#xC800;&#xC7A5;&#xB41C; &#xAC83;&#xCC98;&#xB7FC; &#xBCF4;&#xC784;</li>
-<li>Timestamp &#xD0C0;&#xC785;&#xC744; &#xAC16;&#xB294; &#xCFFC;&#xB9AC;&#xB294; &#xCE90;&#xC2DC;&#xB85C; &#xC800;&#xC7A5;&#xB418;&#xB098; Datetime &#xD0C0;&#xC785;&#xC744; &#xAC16;&#xB294; &#xCFFC;&#xB9AC;&#xB294; &#xCE90;&#xC2DC;&#xB85C; &#xC800;&#xC7A5;&#xB418;&#xC9C0; &#xC54A;&#xC74C;</li>
-</ol>
-<p>&#xADF8;&#xB798;&#xC11C; TIMESTAMP&#xB97C; &#xC0AC;&#xC6A9;&#xD588;&#xB2E4;</p>
-<p>&#xCC38;&#xACE0;: <a href="https://dev.mysql.com/doc/refman/8.0/en/fractional-seconds.html" target="_blank">https://dev.mysql.com/doc/refman/8.0/en/fractional-seconds.html</a></p>
+                                <h1 id="spring-batch">Spring Batch</h1>
 
                                 
                                 </section>
@@ -524,12 +495,8 @@ timestamp(1)&#xC740; &#xC18C;&#xC218;&#xC810; &#xCCAB;&#xBC88;&#xC9F8;&#xC790;&#
 
             
                 
-                <a href="Github%20Actions,%20ec2%20timezone변경.html" class="navigation navigation-prev " aria-label="Previous page: EC2 Timezone">
-                    <i class="fa fa-angle-left"></i>
-                </a>
                 
-                
-                <a href="FCM%20secret.json을%20%08CICD에서%20숨겨서%20배포하기.html" class="navigation navigation-next " aria-label="Next page: Deploy Secret.json">
+                <a href="Github%20Actions,%20ec2%20timezone변경.html" class="navigation navigation-next navigation-unique" aria-label="Next page: EC2 Timezone">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -540,7 +507,7 @@ timestamp(1)&#xC740; &#xC18C;&#xC218;&#xC810; &#xCCAB;&#xBC88;&#xC9F8;&#xC790;&#
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Deploy Timezone","level":"1.4.1.1.3","depth":4,"next":{"title":"Deploy Secret.json","level":"1.4.1.1.4","depth":4,"path":"dongwoo/project/studyHub/FCM%20secret.json을%20%08CICD에서%20숨겨서%20배포하기.md","ref":"dongwoo/project/studyHub/FCM%20secret.json을%20%08CICD에서%20숨겨서%20배포하기.md","articles":[]},"previous":{"title":"EC2 Timezone","level":"1.4.1.1.2","depth":4,"path":"dongwoo/project/studyHub/Github%20Actions,%20ec2%20timezone변경.md","ref":"dongwoo/project/studyHub/Github%20Actions,%20ec2%20timezone변경.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["collapsible-chapters","comment","hide-published-with","github"],"pluginsConfig":{"github":{"url":"https://github.com/inu-appcenter/server-tech-blog"},"search":{},"collapsible-chapters":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"hide-published-with":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"comment":{"highlightCommented":true}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"dongwoo/project/studyHub/CI서버 Repository Test 에서 시간 정렬이 안되는 이슈.md","mtime":"2024-01-11T06:21:01.866Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-01-11T06:21:30.469Z"},"basePath":"../../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Spring Batch","level":"1.4.1.1.1","depth":4,"next":{"title":"EC2 Timezone","level":"1.4.1.1.2","depth":4,"path":"dongwoo/project/studyHub/Github%20Actions,%20ec2%20timezone변경.md","ref":"dongwoo/project/studyHub/Github%20Actions,%20ec2%20timezone변경.md","articles":[]},"previous":{"title":"Study Hub","level":"1.4.1.1","depth":3,"ref":"","articles":[{"title":"Spring Batch","level":"1.4.1.1.1","depth":4,"path":"dongwoo/project/studyHub/Spring%20Batch%20모집글%20상태%20자동%20변환.md","ref":"dongwoo/project/studyHub/Spring%20Batch%20모집글%20상태%20자동%20변환.md","articles":[]},{"title":"EC2 Timezone","level":"1.4.1.1.2","depth":4,"path":"dongwoo/project/studyHub/Github%20Actions,%20ec2%20timezone변경.md","ref":"dongwoo/project/studyHub/Github%20Actions,%20ec2%20timezone변경.md","articles":[]},{"title":"Deploy Timezone","level":"1.4.1.1.3","depth":4,"path":"dongwoo/project/studyHub/CI서버%20Repository%20Test%20에서%20시간%20정렬이%20안되는%20이슈.md","ref":"dongwoo/project/studyHub/CI서버%20Repository%20Test%20에서%20시간%20정렬이%20안되는%20이슈.md","articles":[]},{"title":"Deploy Secret.json","level":"1.4.1.1.4","depth":4,"path":"dongwoo/project/studyHub/FCM%20secret.json을%20%08CICD에서%20숨겨서%20배포하기.md","ref":"dongwoo/project/studyHub/FCM%20secret.json을%20%08CICD에서%20숨겨서%20배포하기.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["collapsible-chapters","comment","hide-published-with","github"],"pluginsConfig":{"github":{"url":"https://github.com/inu-appcenter/server-tech-blog"},"search":{},"collapsible-chapters":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"hide-published-with":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"comment":{"highlightCommented":true}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"dongwoo/project/studyHub/Spring%20Batch%20모집글%20상태%20자동%20변환.md","mtime":"2024-01-13T10:40:08.185Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-01-13T10:40:12.155Z"},"basePath":"../../..","book":{"language":""}});
         });
     </script>
 </div>
